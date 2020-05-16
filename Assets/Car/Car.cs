@@ -79,9 +79,9 @@ public class Car : MonoBehaviour {
             }
             else
             {
-                if(gameObject == GameObject.Find("Camera").GetComponent<CameraMovement>().getFollowing())
+                if(gameObject == GameObject.Find("Camera").GetComponent<KameraTakip>().TakipEt())
                 {
-                    GameObject.Find("Camera").GetComponent<CameraMovement>().Follow(cars[rand]);
+                    GameObject.Find("Camera").GetComponent<KameraTakip>().Takip(cars[rand]);
                 }
                 cars.Remove(gameObject);
                 Destroy(gameObject);
