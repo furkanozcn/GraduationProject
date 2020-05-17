@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Araba\CameraMovement.cs" />
     <Compile Include="Assets\Araba\Car.cs" />
     <Compile Include="Assets\Araba\CarControllerAI.cs" />
     <Compile Include="Assets\Araba\CarMov.cs" />

@@ -10,15 +10,17 @@ public class CarMov : MonoBehaviour {
     private float acceleration;
     private float increaseAcc =5;
     public bool activeAcceleration = true;
+    
 	// Use this for initialization
 	void Start () {
         vz = speedLinear;
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
+        
         float time = Time.deltaTime;
-        transform.position += transform.forward * (vz * time + 0.5f * acceleration * time * time);
+        transform.position += transform.forward * (vz * time + 0.5f * acceleration * time);
         transform.Rotate(new Vector3(0, vyRot, 0));
 	}
     public float getAcceleration()
