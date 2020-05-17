@@ -62,16 +62,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Car\CameraMovement.cs" />
-    <Compile Include="Assets\Car\Car.cs" />
-    <Compile Include="Assets\Car\CarControllerAI.cs" />
-    <Compile Include="Assets\Car\CarMov.cs" />
-    <Compile Include="Assets\Car\DNA.cs" />
-    <Compile Include="Assets\Car\EkranBilgilendirme.cs" />
-    <Compile Include="Assets\Car\KameraTakip.cs" />
-    <Compile Include="Assets\Car\Laser.cs" />
-    <Compile Include="Assets\Car\Lasers.cs" />
-    <Compile Include="Assets\Car\NeuralNetwork.cs" />
+    <Compile Include="Assets\Araba\CameraMovement.cs" />
+    <Compile Include="Assets\Araba\Car.cs" />
+    <Compile Include="Assets\Araba\CarControllerAI.cs" />
+    <Compile Include="Assets\Araba\CarMov.cs" />
+    <Compile Include="Assets\Araba\DNA.cs" />
+    <Compile Include="Assets\Araba\EkranBilgilendirme.cs" />
+    <Compile Include="Assets\Araba\KameraTakip.cs" />
+    <Compile Include="Assets\Araba\Laser.cs" />
+    <Compile Include="Assets\Araba\Lasers.cs" />
+    <Compile Include="Assets\Araba\NeuralNetwork.cs" />
     <Compile Include="Assets\RoadArchitect\GSDRigidBody.cs" />
     <Compile Include="Assets\RoadArchitect\GSDRoad.cs" />
     <Compile Include="Assets\RoadArchitect\GSDRoadAutomation.cs" />
@@ -90,8 +90,6 @@
     <Compile Include="Assets\RoadArchitect\Spline\GSDSplineF.cs" />
     <Compile Include="Assets\RoadArchitect\Spline\GSDSplineI.cs" />
     <Compile Include="Assets\RoadArchitect\Spline\GSDSplineN.cs" />
-    <Compile Include="Assets\Winter Zone Mini 1.0\Scripts\EmitterPositionController.cs" />
-    <Compile Include="Assets\Winter Zone Mini 1.0\Scripts\FXDemoController.cs" />
     <None Include="Assets\RoadArchitect\Shaders\GSDTransparentWithShadowsZ.shader" />
     <None Include="Assets\RoadArchitect\Shaders\GSDShoulderDirt.shader" />
     <None Include="Assets\RoadArchitect\Shaders\GSDRoadShader.shader" />
@@ -101,7 +99,6 @@
     <None Include="Assets\RoadArchitect\Shaders\GSDRoadShaderLowDX11.shader" />
     <None Include="Assets\RoadArchitect\Shaders\GSDTransparentWithShadows.shader" />
     <None Include="Assets\RoadArchitect\LICENSE.txt" />
-    <None Include="Assets\Winter Zone Mini 1.0\readme.txt" />
     <None Include="Assets\RoadArchitect\Shaders\GSDShoulderDirtDX11.shader" />
     <None Include="Assets\RoadArchitect\Shaders\GSDRoadShaderDX11.shader" />
     <None Include="Assets\RoadArchitect\Shaders\GSDStandardOffset.shader" />
